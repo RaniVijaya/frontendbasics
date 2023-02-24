@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h2>Java script Map</h2>
+        <p>Map Methods</p>
+        <p id="demo"></p>
+       <p id="demo1"></p>
+       <p id="demo2"></p>
+        <p id="demo3"></p>
+       <p id="demo4"></p>
+        <p id="demo5"></p>
+        <!---- <p id="demo6"></p>--->
+        <script>
+            var x= new Map([["v1",1],["v2",2],["v3",3]]);
+            x.delete("v2");
+            document.getElementById("demo").innerHTML=x.size;
+            document.getElementById("demo1").innerHTML=x.get("v1");
+            var l=new Map();
+            l.set("v1",23);
+            l.set("v2",34);
+            document.getElementById("demo2").innerHTML=l.size;
+            document.getElementById("demo3").innerHTML=l.has("v1");
+            document.getElementById("demo4").innerHTML=l.clear();
+            document.getElementById("demo5").innerHTML=l.size;
+
+
+
+     </script>
+    </body>
+</html>
