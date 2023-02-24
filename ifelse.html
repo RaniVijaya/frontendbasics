@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h2>Java script</h2>
+        <p>Conditional Statements</p>
+        <p id="demo"></p>
+
+        <script>
+            var x=new Date();  
+            var hour=x.getHours();
+            let day="";
+            if(hour<12)
+            {
+                day="Good morning";
+            }
+            else{
+                day="Godd evening";
+            }
+            document.getElementById("demo").innerHTML=day;
+            
+     </script>
+    </body>
+</html>
