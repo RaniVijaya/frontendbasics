@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h2>Java script Array</h2>
+        <p>Array Methods</p>
+        <p id="demo"></p>
+        <p id="demo1"></p>
+        <p id="demo2"></p>
+        <p id="demo3"></p>
+        <p id="demo4"></p>
+        <p id="demo5"></p>
+        <p id="demo6"></p>
+        <script>
+            var x=[2,3,4,5,6];
+            document.getElementById("demo").innerHTML=x;
+            x.push(1);
+            document.getElementById("demo1").innerHTML=x;
+            x.push(9);
+            document.getElementById("demo2").innerHTML=x;
+
+            x.pop();
+            document.getElementById("demo3").innerHTML=x;
+
+            x.pop();
+            document.getElementById("demo4").innerHTML=x;
+            x.shift();
+            document.getElementById("demo5").innerHTML=x;
+            x.unshift();
+            document.getElementById("demo6").innerHTML=x;
+
+     </script>
+    </body>
+</html>
